@@ -11,6 +11,6 @@ https://drive.google.com/file/d/1a-MHdYUnWKl7YyWi8xrlX9HqaFxPNIPj/view?usp=shari
 8. The user to domain relationship represents a user such as a library system where one user is able to borrow many books. For the database design purposes, there was only one copy of each book. 
 9. A Book object is able to have multiple Authors and an Author can have many Books. This is a many to many relationship which is reifyed through written (contains a book and author ID). 
 10. The portable enumerations represent the genre of the books. Possible values include Young Adult (YA), Graphic novels (graphic), fiction and nonfiction. 
-11. The user interface was written as a webapp using react.js. The frontend starts off with a list of users and from there, you are able to navigate to the corresponding books for the user and the corresponding authors for the books. 
+11. The user interface was written as a webapp using react.js. The frontend starts off with a list of users and from there, you are able to navigate to the corresponding books for the user and the corresponding authors for the books. There is also a list of all the authors and all the books on the home page. Clicking on those links will lead to the editor for those entries. 
 
 
